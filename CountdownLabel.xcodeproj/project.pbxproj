@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0DAE201DE032840070E5A2 /* CountdownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DAE1F1DE032840070E5A2 /* CountdownManager.swift */; };
+		AD0DAE241DE0383C0070E5A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0DAE231DE0383C0070E5A2 /* QuartzCore.framework */; };
+		AD0DAE261DE038400070E5A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0DAE251DE038400070E5A2 /* UIKit.framework */; };
+		AD0DAE321DE03AAD0070E5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DAE311DE03AAD0070E5A2 /* AppDelegate.swift */; };
+		AD0DAE341DE03AAD0070E5A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DAE331DE03AAD0070E5A2 /* ViewController.swift */; };
+		AD0DAE371DE03AAD0070E5A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0DAE351DE03AAD0070E5A2 /* Main.storyboard */; };
+		AD0DAE391DE03AAD0070E5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0DAE381DE03AAD0070E5A2 /* Assets.xcassets */; };
+		AD0DAE3C1DE03AAD0070E5A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0DAE3A1DE03AAD0070E5A2 /* LaunchScreen.storyboard */; };
+		AD0DAE471DE03AAD0070E5A2 /* CountdownSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DAE461DE03AAD0070E5A2 /* CountdownSampleTests.swift */; };
+		AD0DAE521DE03AAD0070E5A2 /* CountdownSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DAE511DE03AAD0070E5A2 /* CountdownSampleUITests.swift */; };
+		AD0DAE5D1DE03E390070E5A2 /* CountdownLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4BD2DE1DE01D8900C7D2CC /* CountdownLabel.framework */; };
+		AD0DAE5E1DE03E390070E5A2 /* CountdownLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD4BD2DE1DE01D8900C7D2CC /* CountdownLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD4BD2E81DE01D8900C7D2CC /* CountdownLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4BD2DE1DE01D8900C7D2CC /* CountdownLabel.framework */; };
+		AD4BD2ED1DE01D8900C7D2CC /* CountdownLabel_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BD2EC1DE01D8900C7D2CC /* CountdownLabel_iOSTests.swift */; };
+		AD4BD2EF1DE01D8900C7D2CC /* CountdownLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4BD2E11DE01D8900C7D2CC /* CountdownLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4BD3141DE01DB700C7D2CC /* CountdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BD3131DE01DB700C7D2CC /* CountdownLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0DAE431DE03AAD0070E5A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4BD2D31DE01D7B00C7D2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0DAE2E1DE03AAD0070E5A2;
+			remoteInfo = CountdownSample;
+		};
+		AD0DAE4E1DE03AAD0070E5A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4BD2D31DE01D7B00C7D2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0DAE2E1DE03AAD0070E5A2;
+			remoteInfo = CountdownSample;
+		};
+		AD0DAE5F1DE03E390070E5A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4BD2D31DE01D7B00C7D2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4BD2DD1DE01D8800C7D2CC;
+			remoteInfo = "CountdownLabel-iOS";
+		};
+		AD4BD2E91DE01D8900C7D2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4BD2D31DE01D7B00C7D2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4BD2DD1DE01D8800C7D2CC;
+			remoteInfo = "CountdownLabel-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD0DAE611DE03E390070E5A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD0DAE5E1DE03E390070E5A2 /* CountdownLabel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD0DAE1F1DE032840070E5A2 /* CountdownManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownManager.swift; sourceTree = "<group>"; };
+		AD0DAE231DE0383C0070E5A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AD0DAE251DE038400070E5A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD0DAE271DE038450070E5A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD0DAE291DE0384A0070E5A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AD0DAE2F1DE03AAD0070E5A2 /* CountdownSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DAE311DE03AAD0070E5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0DAE331DE03AAD0070E5A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0DAE361DE03AAD0070E5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0DAE381DE03AAD0070E5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0DAE3B1DE03AAD0070E5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0DAE3D1DE03AAD0070E5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0DAE421DE03AAD0070E5A2 /* CountdownSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DAE461DE03AAD0070E5A2 /* CountdownSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownSampleTests.swift; sourceTree = "<group>"; };
+		AD0DAE481DE03AAD0070E5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0DAE4D1DE03AAD0070E5A2 /* CountdownSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DAE511DE03AAD0070E5A2 /* CountdownSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownSampleUITests.swift; sourceTree = "<group>"; };
+		AD0DAE531DE03AAD0070E5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4BD2DE1DE01D8900C7D2CC /* CountdownLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountdownLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4BD2E11DE01D8900C7D2CC /* CountdownLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountdownLabel.h; sourceTree = "<group>"; };
+		AD4BD2E21DE01D8900C7D2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4BD2E71DE01D8900C7D2CC /* CountdownLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4BD2EC1DE01D8900C7D2CC /* CountdownLabel_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownLabel_iOSTests.swift; sourceTree = "<group>"; };
+		AD4BD2EE1DE01D8900C7D2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4BD3131DE01DB700C7D2CC /* CountdownLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0DAE2C1DE03AAD0070E5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DAE5D1DE03E390070E5A2 /* CountdownLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DAE3F1DE03AAD0070E5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DAE4A1DE03AAD0070E5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BD2DA1DE01D8800C7D2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DAE261DE038400070E5A2 /* UIKit.framework in Frameworks */,
+				AD0DAE241DE0383C0070E5A2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BD2E41DE01D8900C7D2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4BD2E81DE01D8900C7D2CC /* CountdownLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0DAE221DE0383C0070E5A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DAE291DE0384A0070E5A2 /* QuartzCore.framework */,
+				AD0DAE271DE038450070E5A2 /* UIKit.framework */,
+				AD0DAE251DE038400070E5A2 /* UIKit.framework */,
+				AD0DAE231DE0383C0070E5A2 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0DAE301DE03AAD0070E5A2 /* CountdownSample */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DAE311DE03AAD0070E5A2 /* AppDelegate.swift */,
+				AD0DAE331DE03AAD0070E5A2 /* ViewController.swift */,
+				AD0DAE351DE03AAD0070E5A2 /* Main.storyboard */,
+				AD0DAE381DE03AAD0070E5A2 /* Assets.xcassets */,
+				AD0DAE3A1DE03AAD0070E5A2 /* LaunchScreen.storyboard */,
+				AD0DAE3D1DE03AAD0070E5A2 /* Info.plist */,
+			);
+			path = CountdownSample;
+			sourceTree = "<group>";
+		};
+		AD0DAE451DE03AAD0070E5A2 /* CountdownSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DAE461DE03AAD0070E5A2 /* CountdownSampleTests.swift */,
+				AD0DAE481DE03AAD0070E5A2 /* Info.plist */,
+			);
+			path = CountdownSampleTests;
+			sourceTree = "<group>";
+		};
+		AD0DAE501DE03AAD0070E5A2 /* CountdownSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DAE511DE03AAD0070E5A2 /* CountdownSampleUITests.swift */,
+				AD0DAE531DE03AAD0070E5A2 /* Info.plist */,
+			);
+			path = CountdownSampleUITests;
+			sourceTree = "<group>";
+		};
+		AD4BD2D21DE01D7B00C7D2CC = {
+			isa = PBXGroup;
+			children = (
+				AD0DAE301DE03AAD0070E5A2 /* CountdownSample */,
+				AD0DAE451DE03AAD0070E5A2 /* CountdownSampleTests */,
+				AD0DAE501DE03AAD0070E5A2 /* CountdownSampleUITests */,
+				AD4BD3121DE01D9F00C7D2CC /* Sources */,
+				AD4BD2E01DE01D8900C7D2CC /* CountdownLabel */,
+				AD4BD2EB1DE01D8900C7D2CC /* CountdownLabel-iOSTests */,
+				AD4BD2DF1DE01D8900C7D2CC /* Products */,
+				AD0DAE221DE0383C0070E5A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4BD2DF1DE01D8900C7D2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4BD2DE1DE01D8900C7D2CC /* CountdownLabel.framework */,
+				AD4BD2E71DE01D8900C7D2CC /* CountdownLabelTests.xctest */,
+				AD0DAE2F1DE03AAD0070E5A2 /* CountdownSample.app */,
+				AD0DAE421DE03AAD0070E5A2 /* CountdownSampleTests.xctest */,
+				AD0DAE4D1DE03AAD0070E5A2 /* CountdownSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4BD2E01DE01D8900C7D2CC /* CountdownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AD4BD2E11DE01D8900C7D2CC /* CountdownLabel.h */,
+				AD4BD2E21DE01D8900C7D2CC /* Info.plist */,
+			);
+			name = CountdownLabel;
+			path = "CountdownLabel-iOS";
+			sourceTree = "<group>";
+		};
+		AD4BD2EB1DE01D8900C7D2CC /* CountdownLabel-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4BD2EC1DE01D8900C7D2CC /* CountdownLabel_iOSTests.swift */,
+				AD4BD2EE1DE01D8900C7D2CC /* Info.plist */,
+			);
+			path = "CountdownLabel-iOSTests";
+			sourceTree = "<group>";
+		};
+		AD4BD3121DE01D9F00C7D2CC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD4BD3131DE01DB700C7D2CC /* CountdownLabel.swift */,
+				AD0DAE1F1DE032840070E5A2 /* CountdownManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD4BD2DB1DE01D8800C7D2CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4BD2EF1DE01D8900C7D2CC /* CountdownLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD0DAE2E1DE03AAD0070E5A2 /* CountdownSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DAE541DE03AAD0070E5A2 /* Build configuration list for PBXNativeTarget "CountdownSample" */;
+			buildPhases = (
+				AD0DAE2B1DE03AAD0070E5A2 /* Sources */,
+				AD0DAE2C1DE03AAD0070E5A2 /* Frameworks */,
+				AD0DAE2D1DE03AAD0070E5A2 /* Resources */,
+				AD0DAE611DE03E390070E5A2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0DAE601DE03E390070E5A2 /* PBXTargetDependency */,
+			);
+			name = CountdownSample;
+			productName = CountdownSample;
+			productReference = AD0DAE2F1DE03AAD0070E5A2 /* CountdownSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0DAE411DE03AAD0070E5A2 /* CountdownSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DAE571DE03AAD0070E5A2 /* Build configuration list for PBXNativeTarget "CountdownSampleTests" */;
+			buildPhases = (
+				AD0DAE3E1DE03AAD0070E5A2 /* Sources */,
+				AD0DAE3F1DE03AAD0070E5A2 /* Frameworks */,
+				AD0DAE401DE03AAD0070E5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0DAE441DE03AAD0070E5A2 /* PBXTargetDependency */,
+			);
+			name = CountdownSampleTests;
+			productName = CountdownSampleTests;
+			productReference = AD0DAE421DE03AAD0070E5A2 /* CountdownSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0DAE4C1DE03AAD0070E5A2 /* CountdownSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DAE5A1DE03AAD0070E5A2 /* Build configuration list for PBXNativeTarget "CountdownSampleUITests" */;
+			buildPhases = (
+				AD0DAE491DE03AAD0070E5A2 /* Sources */,
+				AD0DAE4A1DE03AAD0070E5A2 /* Frameworks */,
+				AD0DAE4B1DE03AAD0070E5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0DAE4F1DE03AAD0070E5A2 /* PBXTargetDependency */,
+			);
+			name = CountdownSampleUITests;
+			productName = CountdownSampleUITests;
+			productReference = AD0DAE4D1DE03AAD0070E5A2 /* CountdownSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD4BD2DD1DE01D8800C7D2CC /* CountdownLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4BD2F01DE01D8900C7D2CC /* Build configuration list for PBXNativeTarget "CountdownLabel" */;
+			buildPhases = (
+				AD4BD2D91DE01D8800C7D2CC /* Sources */,
+				AD4BD2DA1DE01D8800C7D2CC /* Frameworks */,
+				AD4BD2DB1DE01D8800C7D2CC /* Headers */,
+				AD4BD2DC1DE01D8800C7D2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountdownLabel;
+			productName = "CountdownLabel-iOS";
+			productReference = AD4BD2DE1DE01D8900C7D2CC /* CountdownLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD4BD2E61DE01D8900C7D2CC /* CountdownLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4BD2F31DE01D8900C7D2CC /* Build configuration list for PBXNativeTarget "CountdownLabelTests" */;
+			buildPhases = (
+				AD4BD2E31DE01D8900C7D2CC /* Sources */,
+				AD4BD2E41DE01D8900C7D2CC /* Frameworks */,
+				AD4BD2E51DE01D8900C7D2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4BD2EA1DE01D8900C7D2CC /* PBXTargetDependency */,
+			);
+			name = CountdownLabelTests;
+			productName = "CountdownLabel-iOSTests";
+			productReference = AD4BD2E71DE01D8900C7D2CC /* CountdownLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4BD2D31DE01D7B00C7D2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					AD0DAE2E1DE03AAD0070E5A2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K84E4S7G4C;
+						ProvisioningStyle = Automatic;
+					};
+					AD0DAE411DE03AAD0070E5A2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K84E4S7G4C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD0DAE2E1DE03AAD0070E5A2;
+					};
+					AD0DAE4C1DE03AAD0070E5A2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K84E4S7G4C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD0DAE2E1DE03AAD0070E5A2;
+					};
+					AD4BD2DD1DE01D8800C7D2CC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K84E4S7G4C;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					AD4BD2E61DE01D8900C7D2CC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K84E4S7G4C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD4BD2D61DE01D7B00C7D2CC /* Build configuration list for PBXProject "CountdownLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4BD2D21DE01D7B00C7D2CC;
+			productRefGroup = AD4BD2DF1DE01D8900C7D2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4BD2DD1DE01D8800C7D2CC /* CountdownLabel */,
+				AD4BD2E61DE01D8900C7D2CC /* CountdownLabelTests */,
+				AD0DAE2E1DE03AAD0070E5A2 /* CountdownSample */,
+				AD0DAE411DE03AAD0070E5A2 /* CountdownSampleTests */,
+				AD0DAE4C1DE03AAD0070E5A2 /* CountdownSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0DAE2D1DE03AAD0070E5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DAE3C1DE03AAD0070E5A2 /* LaunchScreen.storyboard in Resources */,
+				AD0DAE391DE03AAD0070E5A2 /* Assets.xcassets in Resources */,
+				AD0DAE371DE03AAD0070E5A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DAE401DE03AAD0070E5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DAE4B1DE03AAD0070E5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BD2DC1DE01D8800C7D2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BD2E51DE01D8900C7D2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0DAE2B1DE03AAD0070E5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DAE341DE03AAD0070E5A2 /* ViewController.swift in Sources */,
+				AD0DAE321DE03AAD0070E5A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DAE3E1DE03AAD0070E5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DAE471DE03AAD0070E5A2 /* CountdownSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DAE491DE03AAD0070E5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DAE521DE03AAD0070E5A2 /* CountdownSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BD2D91DE01D8800C7D2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4BD3141DE01DB700C7D2CC /* CountdownLabel.swift in Sources */,
+				AD0DAE201DE032840070E5A2 /* CountdownManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BD2E31DE01D8900C7D2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4BD2ED1DE01D8900C7D2CC /* CountdownLabel_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0DAE441DE03AAD0070E5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0DAE2E1DE03AAD0070E5A2 /* CountdownSample */;
+			targetProxy = AD0DAE431DE03AAD0070E5A2 /* PBXContainerItemProxy */;
+		};
+		AD0DAE4F1DE03AAD0070E5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0DAE2E1DE03AAD0070E5A2 /* CountdownSample */;
+			targetProxy = AD0DAE4E1DE03AAD0070E5A2 /* PBXContainerItemProxy */;
+		};
+		AD0DAE601DE03E390070E5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4BD2DD1DE01D8800C7D2CC /* CountdownLabel */;
+			targetProxy = AD0DAE5F1DE03E390070E5A2 /* PBXContainerItemProxy */;
+		};
+		AD4BD2EA1DE01D8900C7D2CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4BD2DD1DE01D8800C7D2CC /* CountdownLabel */;
+			targetProxy = AD4BD2E91DE01D8900C7D2CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD0DAE351DE03AAD0070E5A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0DAE361DE03AAD0070E5A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0DAE3A1DE03AAD0070E5A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0DAE3B1DE03AAD0070E5A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0DAE551DE03AAD0070E5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CountdownSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0DAE561DE03AAD0070E5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CountdownSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0DAE581DE03AAD0070E5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CountdownSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountdownSample.app/CountdownSample";
+			};
+			name = Debug;
+		};
+		AD0DAE591DE03AAD0070E5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CountdownSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountdownSample.app/CountdownSample";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0DAE5B1DE03AAD0070E5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CountdownSampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CountdownSample;
+			};
+			name = Debug;
+		};
+		AD0DAE5C1DE03AAD0070E5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CountdownSampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CountdownSample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4BD2D71DE01D7B00C7D2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AD4BD2D81DE01D7B00C7D2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		AD4BD2F11DE01D8900C7D2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CountdownLabel-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownLabel;
+				PRODUCT_NAME = CountdownLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD4BD2F21DE01D8900C7D2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CountdownLabel-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.CountdownLabel;
+				PRODUCT_NAME = CountdownLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD4BD2F41DE01D8900C7D2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CountdownLabel-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.CountdownLabel-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD4BD2F51DE01D8900C7D2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CountdownLabel-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.CountdownLabel-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0DAE541DE03AAD0070E5A2 /* Build configuration list for PBXNativeTarget "CountdownSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DAE551DE03AAD0070E5A2 /* Debug */,
+				AD0DAE561DE03AAD0070E5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0DAE571DE03AAD0070E5A2 /* Build configuration list for PBXNativeTarget "CountdownSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DAE581DE03AAD0070E5A2 /* Debug */,
+				AD0DAE591DE03AAD0070E5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0DAE5A1DE03AAD0070E5A2 /* Build configuration list for PBXNativeTarget "CountdownSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DAE5B1DE03AAD0070E5A2 /* Debug */,
+				AD0DAE5C1DE03AAD0070E5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4BD2D61DE01D7B00C7D2CC /* Build configuration list for PBXProject "CountdownLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4BD2D71DE01D7B00C7D2CC /* Debug */,
+				AD4BD2D81DE01D7B00C7D2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4BD2F01DE01D8900C7D2CC /* Build configuration list for PBXNativeTarget "CountdownLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4BD2F11DE01D8900C7D2CC /* Debug */,
+				AD4BD2F21DE01D8900C7D2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4BD2F31DE01D8900C7D2CC /* Build configuration list for PBXNativeTarget "CountdownLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4BD2F41DE01D8900C7D2CC /* Debug */,
+				AD4BD2F51DE01D8900C7D2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4BD2D31DE01D7B00C7D2CC /* Project object */;
+}

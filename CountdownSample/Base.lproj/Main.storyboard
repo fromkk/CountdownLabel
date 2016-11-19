@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C48b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CountdownSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="merrychristmas" translatesAutoresizingMaskIntoConstraints="NO" id="trW-iu-iTA">
+                                <rect key="frame" x="187.5" y="333" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" id="KAT-hi-5BE"/>
+                                    <constraint firstAttribute="width" secondItem="trW-iu-iTA" secondAttribute="height" multiplier="885:1057" id="TgI-Qz-x4N"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgu-QK-PqO" customClass="CountdownLabel" customModule="CountdownLabel">
+                                <rect key="frame" x="67" y="269.5" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="25s-dZ-tCt"/>
+                                    <constraint firstAttribute="width" constant="240" id="jFF-za-rOE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="00:00:00"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.27886211388002191" green="0.27886211388002191" blue="0.27886211388002191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="trW-iu-iTA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K6h-J2-af7"/>
+                            <constraint firstItem="trW-iu-iTA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YPG-rq-3xw"/>
+                            <constraint firstItem="kgu-QK-PqO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oQR-Ri-fFS"/>
+                            <constraint firstItem="kgu-QK-PqO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rcU-Zt-2dk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countdownLabel" destination="kgu-QK-PqO" id="ath-qb-6E0"/>
+                        <outlet property="finishedImageView" destination="trW-iu-iTA" id="IuJ-dK-zB0"/>
+                        <outlet property="finishedImageWidth" destination="KAT-hi-5BE" id="LIP-RY-Hh3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="merrychristmas" width="885" height="1057"/>
+    </resources>
+</document>
